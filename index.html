@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>therealmyrn</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Istok+Web:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontfamily: {
+              IstokWeb: ["IstokWeb", "sans-serif"],
+              roboto: ["Roboto", "sans-serif"],
+            },
+          },
+          colors: {
+            clifford: "#da373d",
+            grey300: "#414859",
+            grey400: "#242e44",
+            white: "#ffffff",
+          },
+        },
+      };
+    </script>
+  </head>
+  <body>
+    <section
+      class="h-96 w-full bg-[linear-gradient(to_right,rgba(0,0,0,0.6),rgba(0,0,0,0.1)),url('assets/img-8.png')] bg-no-repeat bg-cover bg-center h-96 w-full"
+    >
+      <nav class="flex  justify-self-end ">
+        <div
+          class="flex gap-1 mt-1 border border-white p-1 mr-2 mt-2 text-sm text-white border-2 font-normal"
+        >
+          <h3 class="uppercase">menu</h3>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            height="20px"
+            viewBox="0 -960 960 960"
+            width="20px"
+            fill="#FFFFFF"
+          >
+            <path
+              d="M144-264v-72h672v72H144Zm0-180v-72h672v72H144Zm0-180v-72h672v72H144Z"
+            />
+          </svg>
+        </div>
+      </nav>
+      <div class="mt-8">
+        <h1
+          class="text-white font-bold uppercase text-3xl w-7/12 text- p-4 w-full"
+          id="header-text"
+        >
+          max out your user experience
+        </h1>
+        <p class="uppercase text-white font-normal p-4 text-base w-11/12">
+          another free + fully responsive site template by yahaya
+        </p>
+        <p><a href="" class=" border border-white rounded-3xl ml-5 text-white p-2 text-xs uppercase px-5">default</a></p>
+      </div>
+    </section>
+
+    <!-- MAX OUT YOUR USER EXPERIENCE
+ANOTHER FREE + FULLY RESPONSIVE SITE TEMPLATE BY THEMEWAGON -->
+  </body>
+</html>
